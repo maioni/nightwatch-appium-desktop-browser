@@ -1,4 +1,4 @@
-# [nightwatch-desktop-browser]([https://nightwatchjs.org/guide/quickstarts/create-and-run-a-nightwatch-test.html))
+# [nightwatch-desktop-browser]([https://nightwatchjs.org/guide/quickstarts/create-and-run-a-nightwatch-test.html)
 Example of a nightwatch project to run test automation for browser at desktop
 
 # install [java JDK](https://openjdk.org/install/)

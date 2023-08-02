@@ -60,7 +60,13 @@ npx nightwatch ./nightwatch/ --env firefox,chrome --workers auto --headless
 OR
 npm run test
 OR
-npm run headless
+npm run serial
+OR
+npm run serial-headless
+OR
+npm run parallel
+OR
+npm run parallel-headless
 ```
 # How to setup and guide about this material
 

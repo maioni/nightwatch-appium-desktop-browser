@@ -4,8 +4,11 @@
   "description": "Example of a nightwatch project to run test automation for browser at desktop",
   "main": "index.js",
   "scripts": {
-    "test": "npx nightwatch ./nightwatch/ --env firefox,chrome --workers auto",
-    "headless": "npx nightwatch ./nightwatch/ --env firefox,chrome --workers auto --headless"
+    "test": "npx nightwatch ./nightwatch/ --env firefox,chrome",
+    "serial": "npx nightwatch ./nightwatch/ --env firefox,chrome --serial",
+    "serial-headless": "npx nightwatch ./nightwatch/ --env firefox,chrome --serial --headless",
+    "parallel": "npx nightwatch ./nightwatch/ --env firefox,chrome --workers auto",
+    "parallel-headless": "npx nightwatch ./nightwatch/ --env firefox,chrome --workers auto --headless"
   },
   "keywords": [],
   "author": "",

@@ -57,6 +57,10 @@ export NVM_DIR=~/.nvm # Node Version Manager
 # to run test cases
 ```bash
 npx nightwatch ./nightwatch/ --env firefox,chrome --workers auto --headless
+OR
+npm run test
+OR
+npm run headless
 ```
 # How to setup and guide about this material
 

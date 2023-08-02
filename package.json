@@ -4,7 +4,8 @@
   "description": "Example of a nightwatch project to run test automation for browser at desktop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx nightwatch ./nightwatch/ --env firefox,chrome --workers auto",
+    "headless": "npx nightwatch ./nightwatch/ --env firefox,chrome --workers auto --headless"
   },
   "keywords": [],
   "author": "",

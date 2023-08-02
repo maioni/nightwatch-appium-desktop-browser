@@ -1,2 +1,2 @@
-# nightwatch-appium-desktop-browser
+# nightwatch-desktop-browser
 Example of a nightwatch project to run test automation for browser at desktop
